@@ -17,7 +17,7 @@ This should enable you to run screenshot comparison tests or perform layout test
 
 ##Prerequisites
 
-Install vagrant and virtual box. Follow instructions here(http://docs.vagrantup.com/v2/installation/index.html) 
+Install vagrant and virtual box. Follow instructions [here](http://docs.vagrantup.com/v2/installation/index.html)
 
 ## How ?
 
