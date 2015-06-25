@@ -3,7 +3,7 @@ debconf-set-selections <<< "mysql-server mysql-server/root_password password"
 debconf-set-selections <<< "mysql-server mysql-server/root_password_again password"
 
 apt-get update -y
-apt-get install lamp-server^ gcc imagemagick php5-imagick git nodejs npm openjdk-7-jre-headless -y
+apt-get install lamp-server^ php5-gd php5-curl gcc imagemagick php5-imagick git nodejs npm openjdk-7-jre-headless -y
 
 update-alternatives --install /usr/bin/node node /usr/bin/nodejs 10
 
